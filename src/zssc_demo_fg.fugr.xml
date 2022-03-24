@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Demo FG</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZSSC_DEMO_FGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZSSC_DEMO_FG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_SSC_DEMO_FM</FUNCNAME>
+     <SHORT_TEXT>demo FM</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>AGENCIES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZCL_SAMPLES=&gt;TT_AGENCY</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>AGENCY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZCL_SAMPLES=&gt;TS_AGENCY</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>AGENCIES</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>AGENCY</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

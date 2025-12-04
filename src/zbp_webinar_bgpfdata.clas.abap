@@ -1,0 +1,6 @@
+CLASS zbp_webinar_bgpfdata DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zr_webinar_bgpfdata.
+ENDCLASS.
+
+
+CLASS zbp_webinar_bgpfdata IMPLEMENTATION.
+ENDCLASS.
